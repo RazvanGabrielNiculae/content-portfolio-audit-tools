@@ -3,6 +3,11 @@
 Dependency-free QA for page portfolios: one primary task per URL, explicit information gain, parent/hub ownership, and duplicate-intent detection.
 
 ## Quick start
+
+Additional deterministic portfolio checks:
+- `tools/audit_internal_links.py` — graph edges, zero-incoming nodes and anchor-pattern diagnostics.
+- `tools/audit_lexical_novelty.py` — Unicode-aware lexical novelty/Jaccard comparison.
+- `tools/audit_content_overlap.py` — pairwise lexical-overlap candidates; diagnostic only, not a ranking claim.
 ```bash
 python3 tools/audit_portfolio.py examples/pages.csv
 python3 -m unittest discover -s tests -v

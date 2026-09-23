@@ -1,0 +1,4 @@
+url,primary_task,information_gain,parent_url
+/hub/,map AI search measurement,metric contract and taxonomy,
+/citations/,measure citation coverage,coverage denominator and cohort method,/hub/
+/referrals/,measure AI referrals,referral attribution boundaries,/hub/
